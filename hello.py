@@ -1,8 +1,28 @@
-import requests
+# This is a single line comment in python.
+""" This is a multi-line comment in python.
+And can also be used as a docstring for functions and classes."""
 
-# Download a web page
+string = "Ich bin Chiru" #string
 
-response = requests.get("https://api.github.com")
-print(response.status_code) # should print 200
+my_long_string = """ 
+My name is chiru.
+My last name is Goli."""
 
-print("The perfect way to learn is to be consistent not showing intense.")
+print(my_long_string)
+
+first_name = "Dave"
+last_name = "Smith"
+
+full_name = first_name + " " + last_name
+
+long_dash = "-" * 30
+
+print(full_name)
+print(long_dash)
+
+len(long_dash) 
+
+
+is_logged_in = True 
+
+
